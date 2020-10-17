@@ -1,5 +1,5 @@
 wifi.setmode(wifi.STATIONAP)
-wifi.ap.config({ssid="VM3980916", pwd="xcmz5qgVbjsh", auth=wifi.WPA2_PSK})
+wifi.ap.config({ssid="Wifi Name", pwd="Password", auth=wifi.WPA2_PSK})
 print("AP IP:"..wifi.ap.getip())
 print("AP MAC:"..wifi.ap.getmac())
 print("STA MAC:"..wifi.sta.getmac())
